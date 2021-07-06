@@ -1,3 +1,4 @@
+*{margin:0;padding:0}
 body{
     font-family: 'Poppins', sans-serif;
     padding-top: 100px;
@@ -5,13 +6,17 @@ body{
 h1{
     font-size: 50px;
 }
+
+
 .header-part{
     background-color: rgb(3, 5, 5);
     text-align: center;
 }
+
 .header-part h1{
     color: #fff;
 }
+
 
 .orange-color{
     color: orange;
@@ -35,6 +40,7 @@ section{
 .container img{
     width: 80%;
 }
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, red);
@@ -52,13 +58,17 @@ section{
 }
 .fix-container{
     background-image: url(images/shapes/Frame\ 58.jpg);
- }
+ 
+}
 
 .flexible-container{
     display: flex;
     margin: 5px 20px 5px 20px;
     font-size: 14px;
 }
+
+
+
 .recipis-item{
     width:330px;
 	height:450px;
@@ -76,6 +86,8 @@ section{
     padding-bottom: 40px;
     border-radius: 20px;
  }
+
+
 .full-follower{
     height: 200px;
     background:#fff; 
@@ -95,6 +107,8 @@ section{
  padding-left: 150px;
  padding-top: 50px;
 }
+
+
 .footer_part{
     background:#0c0c0c; margin-top: 15px; padding:50px;
 }
