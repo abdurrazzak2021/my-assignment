@@ -39,3 +39,101 @@ section{
 .container img{
     width: 80%;
 }
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 15px 35px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 50px;
+}
+.recipies-area{
+    color:grey
+}
+.my-recipies{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.fix-container{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+ 
+}
+
+.flexible-container{
+    display: flex;
+    margin: 5px 20px 5px 20px;
+    font-size: 14px;
+}
+
+
+
+.recipis-item{
+    width:330px;
+	height:450px;
+	background:#fff; 
+    border-radius:25px;
+    float:left;
+    margin-left:50px;
+    box-shadow: 10px 10px 25px rgb(223, 223, 223);
+    padding: 20px;
+}
+
+.recipis-item img{
+    width: 330px;
+    height: 250px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+ }
+
+
+.full-follower{
+    height: 200px;
+    background:#fff; 
+    border-radius:25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    box-shadow: 10px 10px 35px rgb(223, 223, 223);
+}
+#followers{
+    display:flex; 
+}
+#followers p{
+    font-size: 20px;
+}
+.link{
+ width: 250px;
+ padding-left: 150px;
+ padding-top: 50px;
+}
+
+
+.footer_part{
+    background:#0c0c0c; margin-top: 15px; padding:50px;
+}
+.footer_part h2{
+    color:#fff;font-family: 'Oswald', sans-serif; 
+    font-weight: 700;
+    padding: 40px;
+}
+.food-color{
+    color: green;
+}
+
+.food-network{
+    text-align: center;
+}
+.food-network p{
+	color:#ddd;
+	font-size:16px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.copysec{
+    background:#050505;
+    padding-top:16px;
+    text-align:center;
+}
+.copyright{
+    color :grey;
+}
